@@ -1,0 +1,58 @@
+export const menuArray = [
+  {
+    name: "Pizza",
+    ingredients: ["pepperoni", "mushrooms", "mozzarella"],
+    id: 0,
+    price: 14,
+    emoji: "🍕",
+  },
+  {
+    name: "Hamburger",
+    ingredients: ["beef", "cheese", "lettuce"],
+    price: 12,
+    emoji: "🍔",
+    id: 1,
+  },
+  {
+    name: "Sushi",
+    ingredients: ["rice", "fish", "avocado"],
+    id: 2,
+    price: 18,
+    emoji: "🍣",
+  },
+  {
+    name: "Salad",
+    ingredients: ["lettuce", "tomatoes", "cucumbers"],
+    id: 3,
+    price: 8,
+    emoji: "🥗",
+  },
+  {
+    name: "Pasta",
+    ingredients: ["spaghetti", "tomato sauce", "parmesan"],
+    id: 4,
+    price: 10,
+    emoji: "🍝",
+  },
+  {
+    name: "Taco",
+    ingredients: ["ground beef", "lettuce", "cheese"],
+    id: 5,
+    price: 9,
+    emoji: "🌮",
+  },
+  {
+    name: "Sushi",
+    ingredients: ["rice", "fish", "avocado"],
+    id: 6,
+    price: 18,
+    emoji: "🍣",
+  },
+  {
+    name: "Chicken Wings",
+    ingredients: ["chicken", "spices", "sauce"],
+    id: 7,
+    price: 11,
+    emoji: "🍗",
+  },
+];

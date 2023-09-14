@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+
+/* *GENERAL */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Smythe", cursive;
+  background-color: #202020; /* Vibrant Red */
+  color: orange; /* Bright Yellow */
+  border-color: #000000; /* Black */
+
+
+
+}
+
+.header-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.main {
+  padding: 3em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.details{
+  margin-top: 20px;
+}
+
+
+.menu-item {
+ 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #8b8b8b;
+}
+
+.menu-item-details {
+  display: flex;
+  gap: 30px;
+  padding: 2em 0;
+}
+
+.menu-item-emoji {
+  font-size: 5rem;
+  margin-bottom: px;
+}
+
+.menu-item-name {
+  margin: 0;
+}
+
+.menu-item-ingredients {
+  margin: 0.4rem 0;
+}
+
+.menu-item-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.addm{
+  display: flex;
+  margin-bottom: 30px;
+}
+.minus{
+  margin-left: 10px;
+}
+
+
+.add-btn {
+  height: 1.5em;
+  width: 1.5em;
+  min-width: 1.5em;
+  font-size: 1.5em;
+  line-height: 24px;
+  border: 1px solid #8b8b8b;
+  border: solid 1px #343a40;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.1em;
+  align-self: center;
+}
+
+.add-btn:hover,
+.add-btn:focus {
+  background-color: #16db99;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.order-title {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.order-container {
+  margin-top: 40px;
+}
+
+.all-items,
+.total-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-name,
+.order-price {
+  font-size: 1.5em;
+}
+
+.total-price {
+  border-top: 1px solid #343a40;
+}
+.complete-order-btn {
+  display: inline-block;
+  padding: 20px 0;
+  margin-top: 20px;
+  border: #16db99;
+  width: 100%;
+  background-color: #e29d14;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.complete-order-btn:hover {
+  opacity: 0.8;
+}
+
+
+.btn-container {
+  text-align: right;
+}
+

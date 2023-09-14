@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Restaurant Ordering App</title>
+  </head>
+  <main class="main">
+  <section id="menu" class="menu">
+    <!-- *menu rendered here  -->
+  </section>
+
+<section id="order-container" class="order-container hidden">
+    <h3 class="order-title">Your Order</h3>
+    <div id="orders" class="hidden">
+      <!-- *cart rendered here-->
+    </div>
+    <div class="total-price">
+      <p class="order-name">Total price:</p>
+      <p class="order-price" id="order-price">$$$</p>
+    </div>
+    <button class="complete-order-btn" id="complete-order-btn">
+      Complete order
+    </button>
+  </section>
+</main>
+
+  <script src="index.js" type="module"></script>
